@@ -103,9 +103,7 @@ input{
     border-radius: 12px;
 
 }
-.direccionactual h2{
 
-}
 .enviar:hover{
     transition: all .3s;
     background-color: rgba(168, 57, 57, 0.651);
