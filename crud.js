@@ -30,7 +30,7 @@ console.log(newDirecction)
    }
 
    console.log(localStorage.getItem('newDirection'))
-   renderElement()
+ /*   renderElement() */
  
 }
 function getDirect(){
@@ -46,15 +46,16 @@ function borrarElemento(i){
 }
 
 
-function renderElement(){
+/* function renderElement(){
   const  lista= document.getElementById('newDireccion')
       addDireccion.innerHTML='' 
           Direccion.array.forEach(function (addDireccion, item) {
     lista.innerHTML+= `
     <tr>
-    ${newDirecction}
+    ${item}
     </tr>
     `
-
+    renderElement()
+   
   });
-}
+}  */
