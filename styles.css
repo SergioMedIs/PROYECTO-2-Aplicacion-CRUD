@@ -1,0 +1,294 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: rgb(100, 28, 28);
+}
+.head{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-right: 25px;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head li{
+    font-size: 21px;
+    padding-right: 60px;
+}
+.opass{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-right: 25px;
+    margin: 4px;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(182, 182, 182);
+}
+.opass li{
+    margin: 15px;
+    padding-right: 50px;
+}
+input{
+    margin: 2px;
+    height: 35px;
+    border-radius: 8px;
+    border-color: rgba(124, 124, 124, 0.308);
+    border-width: 1px;
+    background-color: rgb(250, 250, 250);
+}
+
+
+.aggg li{
+    list-style: none;
+    color: rgb(62, 69, 71);
+    font-size: 45px;
+
+}
+
+.CRUD{ 
+    float: left;
+    margin: 6px;
+    margin-top: 20px; 
+    margin-left: 45px;
+    width: 450px;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    border-radius: 12px;
+    
+
+}
+.aqui{
+    color: rgba(0, 0, 0, 0.87);
+    cursor:pointer;
+}
+.aggg{
+    width: 250px;
+    margin: 21px;
+    line-height:0;
+}
+.aggg h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+#input1{
+    width: 350px;
+}
+#input2{
+    width: 90px;
+}
+#input5{
+    width: 350px;
+}
+#input8{
+    width: 410px;
+}
+#input9{
+    width: 250px;
+}
+.direccionactual{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    padding: 50px;
+
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+
+}
+.direccionactual h2{
+
+}
+.enviar:hover{
+    transition: all .3s;
+    background-color: rgba(168, 57, 57, 0.651);
+    cursor: pointer;
+
+}
+#lista{
+    display: flex;
+    justify-content: center;
+}
+#guardar{
+    color: aliceblue;
+    justify-content: center;
+    margin: 15px;
+    height: 41px;
+    width: 89px;
+    border-radius: 8px;
+    background-color: rgb(187, 67, 67);
+    border-color: rgba(240, 248, 255, 0);
+    cursor:pointer;
+}
+#guardar:hover{
+    transition: all .3s;
+    background-color: rgba(168, 57, 57, 0.651);
+    
+
+}
+#x{
+    display: flex;
+    justify-content: end;
+    margin: 12px;
+    color: rgb(121, 121, 121);
+    height: 28px;
+    width: 95px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: rgba(107, 29, 29, 0.055);
+}
+.r{
+    float: right;
+}
+.spaceB{
+    padding: 50px;
+    margin: 30px;
+}
+.enla{
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.cz{
+
+    margin: 6px;
+    padding: 3px;
+    opacity: 45%;
+}
+
+footer{
+    position:relative;
+
+    top: 550px;
+    background-color: rgb(19, 19, 19);
+
+}
+.fininf a{
+   padding-right: 2px;
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+.fininf{
+ 
+    display: grid;
+    grid-template-columns: repeat(9, 1fr)  ;
+    justify-content: center;
+}
+.fininf a:hover{
+    transition: all .3s;
+    color: white;
+}
+.registro{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(107, 53, 53);
+}
+.name{
+    margin-left:0px;
+    margin-top: 21px;
+
+}
+.name h3{
+    font-weight: 200;
+}
+.section{
+    margin: 6px;
+    margin-left: 120px;
+}
+.section input{
+    margin-bottom: 12px;
+    
+}
+ .correo{
+     
+    width:320px ;
+    text-align: center;
+    font-size: 21px;
+    color: gray;  
+}
+.enviar{
+    background-color: brown;
+    border-color: rgba(165, 42, 42, 0);
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+
+}
+.tittleMain{
+    display: flex;
+    justify-content: center;
+    margin:6px;
+
+}
+.table{
+    display: grid;
+    margin:6px;
+    padding: 5px;
+
+}
+.table thead{
+    padding-left: 15px;
+    
+}
+.delte{
+    margin: 60px;
+
+}
+#borrar{
+    height: 45px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style:oblique;
+    border-radius: 7px;
+    border-color: rgba(165, 42, 42, 0.116);
+    background-color: brown;
+    color: white;
+    cursor:pointer;
+}
+#borrar:hover{
+    transition: all .3s;
+    background-color: rgba(168, 57, 57, 0.651);
+}
+@media screen and (min-width: 200px) and (max-width: 800px)  {
+
+  table {
+        width:100%;
+        display: block;
+        overflow-x: auto;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    .opass li{
+        font-size: 18px;
+    }
+}
